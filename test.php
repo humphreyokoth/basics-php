@@ -8,17 +8,26 @@
 </head>
 <body>
     <h1><?php
-    echo "Hello World";
+    // echo "Hello World";
     
-    $txt = "Hello World";
-    echo  $txt;
+    // $txt = "Hello World";
+    // echo  $txt;
 
-    
+    // Local variable
+    // function myTest1(){
+    //     $x=5;
+    //     echo "<p> Variable x inside function is:$x</p>";
+    // }
+    // myTest1();
+
+
+    $x =5;
+    $y=10;
     function myTest(){
-        $x=5;
-        echo "<p> Variable x inside function is:$x</p>";
+     $GLOBALS['y'] = $GLOBALS['x']+ $GLOBALS['y'];
     }
     myTest();
+    echo $y;
     ?></h1>
 </body>
 </html>
