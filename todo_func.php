@@ -14,9 +14,5 @@ function todo(){
    
  }
  echo todo();
-
-
-
-
  
 ?>
