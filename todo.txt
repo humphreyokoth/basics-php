@@ -1,0 +1,30 @@
+<?php
+// Declaring global variables of a todoList
+
+    $GLOBALS['to_do_list'] = ["shopping","cleaning","reading","praying","swimming"];
+    // echo $to_do_list;
+
+//echo $to_do_list;
+// Function to remove item at position item 
+
+//   array_splice($to_do_list,1,1);
+//   echo $to_do_list;
+  // $to_do_list = ["shopping","cleaning","reading","praying","swimming"];
+//  for ($index=0; $index < $item; $index++){
+//   echo $item[$index];
+//Function to return list of items.
+function todo(){
+   $item.length;
+
+    for ($index=0; $index < $item; $index++){
+   echo $item[$index];
+   }
+    echo $GLOBALS['to_do_list'];
+ }
+echo todo();
+?>
+
+
+
+
+
