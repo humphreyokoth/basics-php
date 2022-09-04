@@ -31,5 +31,10 @@ setHeight(); // will use the default value of 50
 setHeight(135);
 
 setHeight(80);
+$name ="humphrey";
+$name_length = strlen($name);
+for ($i=0; $i <$name_length ; $i++) { 
+  echo $i;
+}
 
 ?>
