@@ -1,30 +1,4 @@
-<?php
-// Declaring global variables of a todoList
-
-    $GLOBALS['to_do_list'] = ["shopping","cleaning","reading","praying","swimming"];
-    // echo $to_do_list;
-
-//echo $to_do_list;
-// Function to remove item at position item 
-
-//   array_splice($to_do_list,1,1);
-//   echo $to_do_list;
-  // $to_do_list = ["shopping","cleaning","reading","praying","swimming"];
-//  for ($index=0; $index < $item; $index++){
-//   echo $item[$index];
-//Function to return list of items.
-function todo(){
-   $item.length;
-
-    for ($index=0; $index < $item; $index++){
-   echo $item[$index];
-   }
-    echo $GLOBALS['to_do_list'];
- }
-echo todo();
-?>
-
-
-
-
-
+Create a global variable to_do_list with a list of 5 items.
+Write a function that returns the to-do list.
+Write a function with two parameters(index, item) and for this function replace the item at the position index with the item and return a list with an updated item.
+Write a function with one parameter(index) that removes the item at the position item and returns the list without that item on the position index.
